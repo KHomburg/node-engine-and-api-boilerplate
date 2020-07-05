@@ -1,4 +1,4 @@
 module.exports.sampleMiddleware = (req, res, next) => {
-  console.log("TEST")
+  console.log("Middleware TEST")
   return next()
 }

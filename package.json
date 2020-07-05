@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "Boiler-plate",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,6 +9,7 @@
   "author": "Kevin Homburg",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "browser-sync": "^2.26.7",
     "cookie-parser": "^1.4.5",
@@ -22,9 +23,11 @@
     "gulp-uglify": "^3.0.2",
     "morgan": "^1.10.0",
     "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
     "path": "^0.12.7",
     "pg": "^8.2.1",
-    "sequelize": "^5.21.10"
+    "sequelize": "^5.21.10",
+    "validate.js": "^0.13.1"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
