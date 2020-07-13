@@ -25,7 +25,7 @@ router.post("", async (req, res, next) => {
   }
 });
 
-//register a new user; PUBLIC
+//login a new user; PUBLIC
 router.post("/login", async (req, res, next) => {
   try{
     const payload = await users.login(req, res, next)

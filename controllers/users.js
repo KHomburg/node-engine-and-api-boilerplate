@@ -67,14 +67,12 @@ const login = async (req, res, next) => {
       email: user.email,
       name: user.username
     };
-    var test = "test"
     const token = await jwt.sign(payload, secret);
     return {token: `Bearer ${token}`, currentUser: payload}
   }catch(e){
     throw e
   }
 }
-
 
 module.exports = {
   get,
