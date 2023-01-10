@@ -23,7 +23,7 @@
     "gulp-uglify": "^3.0.2",
     "morgan": "^1.10.0",
     "passport": "^0.4.1",
-    "passport-jwt": "^4.0.0",
+    "passport-jwt": "^4.0.1",
     "path": "^0.12.7",
     "pg": "^8.2.1",
     "sequelize": "^5.21.10",
